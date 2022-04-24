@@ -1,4 +1,4 @@
-body{ 
+html{ 
     background-color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,11 +11,52 @@ header{
  font-weight: normal;
  color: white;
  text-align: center;
- font-size: 50px;   
+ font-size: 50px;
+ margin: 10px;
+ padding: 5px;  
+ position: relative;
+ top: 20px; 
+}
+.video{ 
+    position: relative;
+    top: 40px;
+}
+.personal{ 
+    position: relative;
+    top: 40px;
+}
+.phone{ 
+    position: relative;
+    top: 40px;
+}
+.soon{ 
+    position: relative;
+    top: 40px;
+}
+
+footer{ 
+    position: relative;
+    top: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 21px;
+}
+.camp{ 
+    position: relative;
+    top: 40px;
+}
+.link{ 
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
 }
 a{ 
     color: aquamarine;
     font-size: 16px;
+    display: block;
+    position: relative;
+    top: 20px;
 
 }
 .remembers{ 
